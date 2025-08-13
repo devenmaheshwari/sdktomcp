@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "kubernetes-mcp": {
+      "command": "python",
+      "args": [
+        "kubernetes_mcp_server.py"
+      ],
+      "description": "MCP server for kubernetes SDK with 15 tools",
+      "tools": [
+        "create_namespaced_controller_revision",
+        "create_namespaced_daemon_set",
+        "create_namespaced_deployment",
+        "create_namespaced_replica_set",
+        "create_namespaced_stateful_set",
+        "delete_namespaced_controller_revision",
+        "delete_namespaced_daemon_set",
+        "delete_namespaced_deployment",
+        "delete_namespaced_replica_set",
+        "delete_namespaced_stateful_set",
+        "list_deployment_for_all_namespaces",
+        "list_namespaced_controller_revision",
+        "list_namespaced_daemon_set",
+        "list_namespaced_deployment",
+        "list_namespaced_replica_set"
+      ],
+      "categories": [
+        "read",
+        "create",
+        "delete"
+      ]
+    }
+  }
+}
